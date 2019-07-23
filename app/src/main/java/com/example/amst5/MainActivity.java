@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
     public void maps(View view) {
-        Intent i = new Intent(this, MainActivity.class );
+        Intent i = new Intent(this, MapsActivity.class );
         startActivity(i);
     }
     public void calendar(View view) {
