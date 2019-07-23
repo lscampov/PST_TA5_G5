@@ -21,7 +21,7 @@ public class Tareas extends AppCompatActivity {
         Bundle bundle=getIntent().getExtras();
         TextView fecha= findViewById(R.id.txt_fecha);
         TextView tarea= findViewById(R.id.txt_tarea);
-        Button btn_calendario=findViewById(R.id.btn_calendario);
+        //Button btn_calendario=findViewById(R.id.btn_calendario);
         String fecha_tarea="8/8/2019";
         String fecha_calendario1=getIntent().getStringExtra("fecha_calendario");
 
@@ -32,9 +32,11 @@ public class Tareas extends AppCompatActivity {
         }
         else
                 tarea.setText("No hay tareas asignadas para esta fecha");
+                fecha.setText(fecha_calendario1);
     }
 
     public void btn_calendario(View view){
+
         finish();
     }
 }

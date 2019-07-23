@@ -17,7 +17,8 @@ public class Calendario extends AppCompatActivity {
         calendario_fecha.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
             @Override
             public void onSelectedDayChange(CalendarView calendarView, int i, int i1, int i2) {
-                String fecha_calendario= i2 + "/"+ i1 +"/"+ i;
+                String fecha_calendario= i2 +"/"+ (i1+1) +"/"+ i;
+
                 Intent cambio =  new Intent(Calendario.this,Tareas.class);
                 cambio.putExtra("fecha_calendario",fecha_calendario);
                 startActivity(cambio);
