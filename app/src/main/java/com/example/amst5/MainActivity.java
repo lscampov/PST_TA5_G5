@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void video(View view) {
-        Intent i = new Intent(this, MainActivity.class );
+        Intent i = new Intent(this, Main2Activity.class );
         startActivity(i);
     }
     public void maps(View view) {
@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
     public void calendar(View view) {
-        Intent i = new Intent(this, MainActivity.class );
+        Intent i = new Intent(this, Calendario.class );
         startActivity(i);
     }
 }
