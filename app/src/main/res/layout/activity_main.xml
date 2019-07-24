@@ -46,8 +46,8 @@
         android:id="@+id/textView"
         android:layout_width="241dp"
         android:layout_height="57dp"
-        android:layout_marginStart="76dp"
-        android:layout_marginTop="156dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="172dp"
         android:text="Menu Principal"
         android:textSize="36sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -58,9 +58,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="176dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="116dp"
         android:text="AMST5"
         android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="28dp"
+        android:text="ESPOL"
+        android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
