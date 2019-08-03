@@ -13,7 +13,7 @@ import android.widget.MediaController;
 import android.widget.VideoView;
 
 public class Main2Activity extends AppCompatActivity {
-
+//grth
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
